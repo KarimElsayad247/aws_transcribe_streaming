@@ -1,6 +1,6 @@
 name: aws_transcribe_streaming
 description: "AWS Transcribe Streaming client for producing real-time transcriptions for your media content using HTTP/2."
-version: 0.1.0
+version: 0.2.0
 homepage: https://github.com/javer/aws_transcribe_streaming
 repository: https://github.com/javer/aws_transcribe_streaming
 
@@ -8,13 +8,13 @@ environment:
   sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
-  archive: ^3.0.0
-  aws_common: ^0.6.0
-  aws_signature_v4: ^0.5.0
-  convert: ^3.0.0
-  crypto: ^3.0.0
-  http2: ^2.1.0
-  uuid: ^3.0.0
+  archive: ^3.6.1
+  aws_common: ^0.7.0
+  aws_signature_v4: ^0.6.3
+  convert: ^3.1.1
+  crypto: ^3.0.5
+  http2: ^2.3.0
+  uuid: ^4.5.1
 
 dev_dependencies:
   lints: ^3.0.0
